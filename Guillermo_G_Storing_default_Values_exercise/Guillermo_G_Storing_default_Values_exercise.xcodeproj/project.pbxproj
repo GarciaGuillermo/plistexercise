@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBFEFF4324E1CC6600251439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFEFF4224E1CC6600251439 /* AppDelegate.swift */; };
+		CBFEFF4524E1CC6600251439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFEFF4424E1CC6600251439 /* SceneDelegate.swift */; };
+		CBFEFF4724E1CC6600251439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFEFF4624E1CC6600251439 /* ViewController.swift */; };
+		CBFEFF4A24E1CC6600251439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFEFF4824E1CC6600251439 /* Main.storyboard */; };
+		CBFEFF4C24E1CC6800251439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFEFF4B24E1CC6800251439 /* Assets.xcassets */; };
+		CBFEFF4F24E1CC6800251439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFEFF4D24E1CC6800251439 /* LaunchScreen.storyboard */; };
+		CBFEFF5A24E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFEFF5924E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseTests.swift */; };
+		CBFEFF6524E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFEFF6424E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBFEFF5624E1CC6800251439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBFEFF3724E1CC6600251439 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBFEFF3E24E1CC6600251439;
+			remoteInfo = Guillermo_G_Storing_default_Values_exercise;
+		};
+		CBFEFF6124E1CC6800251439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBFEFF3724E1CC6600251439 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBFEFF3E24E1CC6600251439;
+			remoteInfo = Guillermo_G_Storing_default_Values_exercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBFEFF3F24E1CC6600251439 /* Guillermo_G_Storing_default_Values_exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guillermo_G_Storing_default_Values_exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFEFF4224E1CC6600251439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBFEFF4424E1CC6600251439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CBFEFF4624E1CC6600251439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBFEFF4924E1CC6600251439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBFEFF4B24E1CC6800251439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBFEFF4E24E1CC6800251439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBFEFF5024E1CC6800251439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBFEFF5524E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Guillermo_G_Storing_default_Values_exerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFEFF5924E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guillermo_G_Storing_default_Values_exerciseTests.swift; sourceTree = "<group>"; };
+		CBFEFF5B24E1CC6800251439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBFEFF6024E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Guillermo_G_Storing_default_Values_exerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFEFF6424E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guillermo_G_Storing_default_Values_exerciseUITests.swift; sourceTree = "<group>"; };
+		CBFEFF6624E1CC6800251439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBFEFF3C24E1CC6600251439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFEFF5224E1CC6800251439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFEFF5D24E1CC6800251439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBFEFF3624E1CC6600251439 = {
+			isa = PBXGroup;
+			children = (
+				CBFEFF4124E1CC6600251439 /* Guillermo_G_Storing_default_Values_exercise */,
+				CBFEFF5824E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseTests */,
+				CBFEFF6324E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseUITests */,
+				CBFEFF4024E1CC6600251439 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBFEFF4024E1CC6600251439 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBFEFF3F24E1CC6600251439 /* Guillermo_G_Storing_default_Values_exercise.app */,
+				CBFEFF5524E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseTests.xctest */,
+				CBFEFF6024E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBFEFF4124E1CC6600251439 /* Guillermo_G_Storing_default_Values_exercise */ = {
+			isa = PBXGroup;
+			children = (
+				CBFEFF4224E1CC6600251439 /* AppDelegate.swift */,
+				CBFEFF4424E1CC6600251439 /* SceneDelegate.swift */,
+				CBFEFF4624E1CC6600251439 /* ViewController.swift */,
+				CBFEFF4824E1CC6600251439 /* Main.storyboard */,
+				CBFEFF4B24E1CC6800251439 /* Assets.xcassets */,
+				CBFEFF4D24E1CC6800251439 /* LaunchScreen.storyboard */,
+				CBFEFF5024E1CC6800251439 /* Info.plist */,
+			);
+			path = Guillermo_G_Storing_default_Values_exercise;
+			sourceTree = "<group>";
+		};
+		CBFEFF5824E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBFEFF5924E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseTests.swift */,
+				CBFEFF5B24E1CC6800251439 /* Info.plist */,
+			);
+			path = Guillermo_G_Storing_default_Values_exerciseTests;
+			sourceTree = "<group>";
+		};
+		CBFEFF6324E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBFEFF6424E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseUITests.swift */,
+				CBFEFF6624E1CC6800251439 /* Info.plist */,
+			);
+			path = Guillermo_G_Storing_default_Values_exerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBFEFF3E24E1CC6600251439 /* Guillermo_G_Storing_default_Values_exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFEFF6924E1CC6800251439 /* Build configuration list for PBXNativeTarget "Guillermo_G_Storing_default_Values_exercise" */;
+			buildPhases = (
+				CBFEFF3B24E1CC6600251439 /* Sources */,
+				CBFEFF3C24E1CC6600251439 /* Frameworks */,
+				CBFEFF3D24E1CC6600251439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Guillermo_G_Storing_default_Values_exercise;
+			productName = Guillermo_G_Storing_default_Values_exercise;
+			productReference = CBFEFF3F24E1CC6600251439 /* Guillermo_G_Storing_default_Values_exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBFEFF5424E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFEFF6C24E1CC6800251439 /* Build configuration list for PBXNativeTarget "Guillermo_G_Storing_default_Values_exerciseTests" */;
+			buildPhases = (
+				CBFEFF5124E1CC6800251439 /* Sources */,
+				CBFEFF5224E1CC6800251439 /* Frameworks */,
+				CBFEFF5324E1CC6800251439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBFEFF5724E1CC6800251439 /* PBXTargetDependency */,
+			);
+			name = Guillermo_G_Storing_default_Values_exerciseTests;
+			productName = Guillermo_G_Storing_default_Values_exerciseTests;
+			productReference = CBFEFF5524E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBFEFF5F24E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFEFF6F24E1CC6800251439 /* Build configuration list for PBXNativeTarget "Guillermo_G_Storing_default_Values_exerciseUITests" */;
+			buildPhases = (
+				CBFEFF5C24E1CC6800251439 /* Sources */,
+				CBFEFF5D24E1CC6800251439 /* Frameworks */,
+				CBFEFF5E24E1CC6800251439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBFEFF6224E1CC6800251439 /* PBXTargetDependency */,
+			);
+			name = Guillermo_G_Storing_default_Values_exerciseUITests;
+			productName = Guillermo_G_Storing_default_Values_exerciseUITests;
+			productReference = CBFEFF6024E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBFEFF3724E1CC6600251439 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Guillermo Garcia";
+				TargetAttributes = {
+					CBFEFF3E24E1CC6600251439 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CBFEFF5424E1CC6800251439 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CBFEFF3E24E1CC6600251439;
+					};
+					CBFEFF5F24E1CC6800251439 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CBFEFF3E24E1CC6600251439;
+					};
+				};
+			};
+			buildConfigurationList = CBFEFF3A24E1CC6600251439 /* Build configuration list for PBXProject "Guillermo_G_Storing_default_Values_exercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBFEFF3624E1CC6600251439;
+			productRefGroup = CBFEFF4024E1CC6600251439 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBFEFF3E24E1CC6600251439 /* Guillermo_G_Storing_default_Values_exercise */,
+				CBFEFF5424E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseTests */,
+				CBFEFF5F24E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBFEFF3D24E1CC6600251439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFEFF4F24E1CC6800251439 /* LaunchScreen.storyboard in Resources */,
+				CBFEFF4C24E1CC6800251439 /* Assets.xcassets in Resources */,
+				CBFEFF4A24E1CC6600251439 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFEFF5324E1CC6800251439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFEFF5E24E1CC6800251439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBFEFF3B24E1CC6600251439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFEFF4724E1CC6600251439 /* ViewController.swift in Sources */,
+				CBFEFF4324E1CC6600251439 /* AppDelegate.swift in Sources */,
+				CBFEFF4524E1CC6600251439 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFEFF5124E1CC6800251439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFEFF5A24E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFEFF5C24E1CC6800251439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFEFF6524E1CC6800251439 /* Guillermo_G_Storing_default_Values_exerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBFEFF5724E1CC6800251439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBFEFF3E24E1CC6600251439 /* Guillermo_G_Storing_default_Values_exercise */;
+			targetProxy = CBFEFF5624E1CC6800251439 /* PBXContainerItemProxy */;
+		};
+		CBFEFF6224E1CC6800251439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBFEFF3E24E1CC6600251439 /* Guillermo_G_Storing_default_Values_exercise */;
+			targetProxy = CBFEFF6124E1CC6800251439 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBFEFF4824E1CC6600251439 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBFEFF4924E1CC6600251439 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBFEFF4D24E1CC6800251439 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBFEFF4E24E1CC6800251439 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBFEFF6724E1CC6800251439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBFEFF6824E1CC6800251439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBFEFF6A24E1CC6800251439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Guillermo_G_Storing_default_Values_exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GuillermoG.Guillermo-G-Storing-default-Values-exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBFEFF6B24E1CC6800251439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Guillermo_G_Storing_default_Values_exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GuillermoG.Guillermo-G-Storing-default-Values-exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBFEFF6D24E1CC6800251439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Guillermo_G_Storing_default_Values_exerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GuillermoG.Guillermo-G-Storing-default-Values-exerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guillermo_G_Storing_default_Values_exercise.app/Guillermo_G_Storing_default_Values_exercise";
+			};
+			name = Debug;
+		};
+		CBFEFF6E24E1CC6800251439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Guillermo_G_Storing_default_Values_exerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GuillermoG.Guillermo-G-Storing-default-Values-exerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guillermo_G_Storing_default_Values_exercise.app/Guillermo_G_Storing_default_Values_exercise";
+			};
+			name = Release;
+		};
+		CBFEFF7024E1CC6800251439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Guillermo_G_Storing_default_Values_exerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GuillermoG.Guillermo-G-Storing-default-Values-exerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Guillermo_G_Storing_default_Values_exercise;
+			};
+			name = Debug;
+		};
+		CBFEFF7124E1CC6800251439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Guillermo_G_Storing_default_Values_exerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GuillermoG.Guillermo-G-Storing-default-Values-exerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Guillermo_G_Storing_default_Values_exercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBFEFF3A24E1CC6600251439 /* Build configuration list for PBXProject "Guillermo_G_Storing_default_Values_exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFEFF6724E1CC6800251439 /* Debug */,
+				CBFEFF6824E1CC6800251439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBFEFF6924E1CC6800251439 /* Build configuration list for PBXNativeTarget "Guillermo_G_Storing_default_Values_exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFEFF6A24E1CC6800251439 /* Debug */,
+				CBFEFF6B24E1CC6800251439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBFEFF6C24E1CC6800251439 /* Build configuration list for PBXNativeTarget "Guillermo_G_Storing_default_Values_exerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFEFF6D24E1CC6800251439 /* Debug */,
+				CBFEFF6E24E1CC6800251439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBFEFF6F24E1CC6800251439 /* Build configuration list for PBXNativeTarget "Guillermo_G_Storing_default_Values_exerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFEFF7024E1CC6800251439 /* Debug */,
+				CBFEFF7124E1CC6800251439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBFEFF3724E1CC6600251439 /* Project object */;
+}
